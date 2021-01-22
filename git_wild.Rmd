@@ -35,8 +35,14 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
+
+ggplot(data = diamonds, aes(x = cut, y = carat)) +
+       geom_point()
+
 ### here is some awesome cool stuff
 waffle <- 1000 * 2000 + 3
+
+# I'm keeping both of those changes.
 ```
 
 ```{r break-it-2}
